@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+JLX	mylcd.c	/^uchar JLX[]={ \/\/16*48 $/;"	v
+ascii_table_5x8	mylcd.c	/^uchar ascii_table_5x8[95][5]; $/;"	v
+ascii_table_5x8	mylcd.c	/^uchar ascii_table_5x8[95][5]={ $/;"	v
+ascii_table_8x16	mylcd.c	/^uchar ascii_table_8x16[95][16]; $/;"	v
+ascii_table_8x16	mylcd.c	/^uchar ascii_table_8x16[95][16]={ $/;"	v
+bmp1	mylcd.c	/^uchar bmp1[]; $/;"	v
+bmp1	mylcd.c	/^uchar bmp1[]={ $/;"	v
+bmp2	mylcd.c	/^uchar bmp2[]; $/;"	v
+bmp2	mylcd.c	/^uchar bmp2[]={ $/;"	v
+cheng	mylcd.c	/^uchar cheng[]={ $/;"	v
+clear_screen	mylcd.c	/^void clear_screen() $/;"	f
+delay	mylcd.c	/^void delay(int i) $/;"	f
+dian	mylcd.c	/^uchar dian[]={ $/;"	v
+display_graphic_128x64	mylcd.c	/^void display_graphic_128x64(uchar page,uchar column,uchar *dp) $/;"	f
+display_graphic_16x48	mylcd.c	/^void display_graphic_16x48(uchar page,uchar column,uchar *dp) $/;"	f
+display_graphic_32x32	mylcd.c	/^void display_graphic_32x32(uchar page,uchar column,uchar *dp) $/;"	f
+display_graphic_32x64	mylcd.c	/^void display_graphic_32x64(uchar page,uchar column,uchar *dp) $/;"	f
+display_string_5x8_1	mylcd.c	/^void display_string_5x8_1(uint page,uint column,uchar *text) $/;"	f
+display_string_8x16	mylcd.c	/^void display_string_8x16(uint page,uint column,uchar *text) $/;"	f
+gong	mylcd.c	/^uchar gong[]={ $/;"	v
+gong1	mylcd.c	/^uchar gong1[]={ $/;"	v
+initial_lcd	mylcd.c	/^void initial_lcd() $/;"	f
+jin	mylcd.c	/^uchar jin[]={ $/;"	v
+jing	mylcd.c	/^uchar jing[]={ $/;"	v
+lcd_address	mylcd.c	/^void lcd_address(uchar page,uchar column) $/;"	f
+lian	mylcd.c	/^uchar lian[]={ $/;"	v
+logo	mylcd.c	/^uchar logo[]={ $/;"	v
+main	mylcd.c	/^void main(void) $/;"	f
+ping	mylcd.c	/^uchar ping[]={ $/;"	v
+si	mylcd.c	/^uchar si[]={ $/;"	v
+test	mylcd.c	/^void test() $/;"	f
+transfer_command	mylcd.c	/^void transfer_command(int data1) $/;"	f
+transfer_data	mylcd.c	/^void transfer_data(int data1) $/;"	f
+uchar	mylcd.c	9;"	d	file:
+uint	mylcd.c	10;"	d	file:
+ulong	mylcd.c	11;"	d	file:
+waitkey	mylcd.c	/^void waitkey() $/;"	f
+xian	mylcd.c	/^uchar xian[]={ $/;"	v
+xun	mylcd.c	/^uchar xun[]={ $/;"	v
+ye	mylcd.c	/^uchar ye[]={ $/;"	v
+yie	mylcd.c	/^uchar yie[]={ $/;"	v
+you	mylcd.c	/^uchar you[]={ $/;"	v
+zhuan	mylcd.c	/^uchar zhuan[]={ $/;"	v
+zi	mylcd.c	/^uchar zi[]={ $/;"	v
