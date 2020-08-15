@@ -511,6 +511,10 @@ def main():
             key_trigger_status = True
             if current_interface_option == 1:
                 if config_status:
+                    while GPIO.input(KEY_UP) == GPIO.LOW:
+                        print("1 UP 0 0 4 64,128,0")
+                        client.sendto(('0 0 4 64,128,0').encode('utf-8'), ip_port)
+                        #pass
                     if menu_options[current_menu_option].name == lang["Date"] and config_date_status:
                         menu_options[current_menu_option].get_option_object().current_option += 1
                     else:
@@ -518,6 +522,7 @@ def main():
                         print("current_menu_option: %d" %menu_options[current_menu_option].current_option)
                 else:
                     while GPIO.input(KEY_UP) == GPIO.LOW:
+                        print("2 UP 0 0 4 64,128,0")
                         client.sendto(('0 0 4 64,128,0').encode('utf-8'), ip_port)
                         #pass
                     current_menu_option += 1
@@ -526,6 +531,10 @@ def main():
             key_trigger_status = True
             if current_interface_option == 1:
                 if config_status:
+                    while GPIO.input(KEY_DOWN) == GPIO.LOW:
+                        print("1 DOWN 0 0 4 64,128,0")
+                        client.sendto(('0 0 4 64,128,0').encode('utf-8'), ip_port)
+                        #pass
                     if menu_options[current_menu_option].name == lang["Date"] and config_date_status:
                         menu_options[current_menu_option].get_option_object().current_option -= 1
                     else:
@@ -533,6 +542,7 @@ def main():
                         print("menu_options[current_menu_option].current_option: %d" %menu_options[current_menu_option].current_option)
                 else:
                     while GPIO.input(KEY_DOWN) == GPIO.LOW:
+                        print("2 DOWN 0 0 4 64,128,0")
                         client.sendto(('0 0 4 64,128,0').encode('utf-8'), ip_port)
                         #pass
                     current_menu_option -= 1
@@ -548,6 +558,7 @@ def main():
             print("MENU")
             key_trigger_status = True
             while GPIO.input(KEY_MENU) == GPIO.LOW:
+                print("MENU 0 0 4 64,128,0")
                 client.sendto(('0 0 4 64,128,0').encode('utf-8'), ip_port)
                 #pass
             ## current_menu_option = 0
@@ -565,6 +576,7 @@ def main():
             print("CONFIG")
             key_trigger_status = True
             while GPIO.input(KEY_CONFIG) == GPIO.LOW:
+                print("CONFIG 0 0 4 64,128,0")
                 client.sendto(('0 0 4 64,128,0').encode('utf-8'), ip_port)
                 #pass
             if current_interface_option == 1:

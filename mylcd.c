@@ -331,7 +331,7 @@ void clear_screen()
     lcd_address(1+i,1);
     for(j=0;j<192;j++) 
     { 
-      transfer_data(0x00); 
+      transfer_data(0x01); 
     } 
   } 
 } 
@@ -454,11 +454,17 @@ void main(void)
   { 
     initial_lcd(); 
     clear_screen(); //clear all dots 
+
+#if 0
+    sleep(10);
     transfer_command(0xc2); //纵向显示：从上到下、从左到右 FPC 在右边 
     display_graphic_128x64(1,1,bmp1); 
+
+    sleep(10);
     waitkey(); 
     display_graphic_128x64(1,1,bmp2); 
     waitkey(); 
+    sleep(10);
     transfer_command(0xc4); //纵向显示，旋装 180 度：从上到下、从左到右 FPC 在左边
     display_graphic_128x64(1,65,bmp1); //由于驱动 IC 支持 192*64，我们只用到 128*64，所以这里旋转 180度要从列地址 65 列开始 
     waitkey(); 
@@ -483,6 +489,15 @@ void main(void)
     display_graphic_32x32(5,32*3+65,ping); //显示单个汉字"晶" 
     waitkey(); 
     clear_screen(); //clear all dots 
+#endif
+
+
+
+
+
+
+
+    sleep(10);
     transfer_command(0xc2); //横向显示 
     display_string_8x16(1,1,"(<\"0123456abc~>)");//在第 1 页，第 1 列显示字符串 
     display_string_8x16(3,1,"{[(<\" '&*|\\?>)]}");//在第*页，第*列显示字符串
