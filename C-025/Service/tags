@@ -1,0 +1,165 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Back	main.c	/^  struct timespec Back;$/;"	m	struct:lcd_interface_refresh_time	typeref:struct:lcd_interface_refresh_time::timespec	file:
+Continue_Receive_data_buffer	main.c	52;"	d	file:
+DATA_8_Bit_swap	main.c	/^uchar DATA_8_Bit_swap(uchar source) {$/;"	f
+Data_string	main.c	/^  char * Data_string;			\/\/ 数据存储位置指针$/;"	m	struct:Receive_data_buffer	file:
+Filter_Delete_Receive_data_buffer	main.c	/^void Filter_Delete_Receive_data_buffer(int Receive_data_buffer_addr){$/;"	f
+Filter_Delete_single_Receive_data_buffer	main.c	/^void Filter_Delete_single_Receive_data_buffer(int Receive_data_buffer_addr){$/;"	f
+Filter_Delete_single_Receive_data_buffer_end	main.c	/^unsigned int Filter_Delete_single_Receive_data_buffer_end(int Receive_data_buffer_addr){$/;"	f
+Filter_add_single_Receive_data_buffer	main.c	/^void Filter_add_single_Receive_data_buffer(int Receive_data_buffer_addr,unsigned char * dat,unsigned int dat_leng,int count){$/;"	f
+Filter_change_Receive_data_buffer	main.c	/^int Filter_change_Receive_data_buffer(int Receive_data_buffer_addr,unsigned char * dat,unsigned int dat_leng,int count){$/;"	f
+Filter_header_Receive_data_buffer	main.c	/^int Filter_header_Receive_data_buffer(struct Interface_Pixel_overall *Interface, struct Instruction *parsing, struct UTP_socket_server *server) {$/;"	f
+Filter_print_Receive_data_buffer	main.c	/^void Filter_print_Receive_data_buffer(int Receive_data_buffer_addr){$/;"	f
+Filter_print_Receive_data_buffer_srt	main.c	/^void Filter_print_Receive_data_buffer_srt(int Receive_data_buffer_addr){$/;"	f
+Filter_refresh_Receive_data_buffer	main.c	/^void Filter_refresh_Receive_data_buffer(struct Interface_Pixel_overall *Interface, struct Instruction *parsing, char *server_char_addr) {$/;"	f
+Filter_single_Compared_Receive_data_buffer	main.c	/^int Filter_single_Compared_Receive_data_buffer(int Receive_data_buffer_addr,unsigned char * dat,unsigned int dat_leng){$/;"	f
+Filter_user_str_Compared	main.c	/^int Filter_user_str_Compared(unsigned char *aims,unsigned char *source,int source_len){$/;"	f
+Filter_user_strcpy	main.c	/^int Filter_user_strcpy(unsigned char *aims,unsigned char *source,int source_len){$/;"	f
+GB2312	utf_8_to_gb3212.h	7;"	d
+GB2312_13_data_code	data.c	/^uchar const GB2312_13_data_code[][24] = {$/;"	v
+GB3212_to_UTF8	utf_8_to_gb3212.c	23;"	d	file:
+GB3212_to_UTF8	utf_8_to_gb3212.h	11;"	d
+Instruction	git_data.h	/^struct Instruction{$/;"	s
+Instruction_parsing_Split	git_data.c	/^int Instruction_parsing_Split(int addr,int instruction_buf,char segmentation){$/;"	f
+Instruction_parsing_add_load	git_data.c	/^int Instruction_parsing_add_load(int parsing_addr,int buf_add,int status){$/;"	f
+Instruction_parsing_char	git_data.c	/^void Instruction_parsing_char(char *server_char_addr, struct Instruction *parsing, char segmentation){$/;"	f
+Interface_Column	main.c	33;"	d	file:
+Interface_Column_unit	main.c	35;"	d	file:
+Interface_Pixel_overall	main.c	/^struct Interface_Pixel_overall {$/;"	s	file:
+Interface_Pixel_unit	main.c	/^struct Interface_Pixel_unit{$/;"	s	file:
+Interface_Row	main.c	32;"	d	file:
+Interface_Row_unit	main.c	34;"	d	file:
+Interface_Spin	main.c	29;"	d	file:
+Interface_Spin_0	main.c	25;"	d	file:
+Interface_Spin_180	main.c	27;"	d	file:
+Interface_Spin_270	main.c	28;"	d	file:
+Interface_Spin_90	main.c	26;"	d	file:
+LCD_Command_header	main.c	47;"	d	file:
+LCD_mode_AT	main.c	41;"	d	file:
+LCD_mode_table_16x16	main.c	44;"	d	file:
+LCD_mode_table_5x8	main.c	42;"	d	file:
+LCD_mode_table_8x16	main.c	43;"	d	file:
+LCD_mode_table_Make_words	main.c	46;"	d	file:
+LCD_mode_table_Make_words_Signal_strength	main.c	530;"	d	file:
+LCD_mode_table_Make_words_Sub_mode_Signal_strength	main.c	/^void LCD_mode_table_Make_words_Sub_mode_Signal_strength(struct Interface_Pixel_overall *Interface, int Page, int position, int dp){$/;"	f
+LCD_mode_table_image	main.c	45;"	d	file:
+Max	main.c	38;"	d	file:
+Min	main.c	37;"	d	file:
+Pixel_0	main.c	/^  uchar Pixel_0:1;$/;"	m	struct:Interface_Pixel_unit	file:
+Pixel_1	main.c	/^  uchar Pixel_1:1;$/;"	m	struct:Interface_Pixel_unit	file:
+Pixel_2	main.c	/^  uchar Pixel_2:1;$/;"	m	struct:Interface_Pixel_unit	file:
+Pixel_3	main.c	/^  uchar Pixel_3:1;$/;"	m	struct:Interface_Pixel_unit	file:
+Pixel_4	main.c	/^  uchar Pixel_4:1;$/;"	m	struct:Interface_Pixel_unit	file:
+Pixel_5	main.c	/^  uchar Pixel_5:1;$/;"	m	struct:Interface_Pixel_unit	file:
+Pixel_6	main.c	/^  uchar Pixel_6:1;$/;"	m	struct:Interface_Pixel_unit	file:
+Pixel_7	main.c	/^  uchar Pixel_7:1;$/;"	m	struct:Interface_Pixel_unit	file:
+Pixel_unit	main.c	/^  struct Interface_Pixel_unit Pixel_unit[Interface_Row][Interface_Column * Interface_Column_unit];$/;"	m	struct:Interface_Pixel_overall	typeref:struct:Interface_Pixel_overall::Interface_Pixel_unit	file:
+Pixel_unit_buf	main.c	/^  struct Interface_Pixel_unit Pixel_unit_buf[Interface_Row][Interface_Column * Interface_Column_unit];$/;"	m	struct:Interface_Pixel_overall	typeref:struct:Interface_Pixel_overall::Interface_Pixel_unit	file:
+Previous	main.c	/^  struct Receive_data_buffer *Previous;	\/\/ 上一个$/;"	m	struct:Receive_data_buffer	typeref:struct:Receive_data_buffer::Receive_data_buffer	file:
+Receive_data_buffer	main.c	/^struct Receive_data_buffer {$/;"	s	file:
+Refresh_Sign	main.c	/^  char Refresh_Sign;$/;"	m	struct:lcd_interface_refresh_time	file:
+Start_Receive_data_buffer	main.c	51;"	d	file:
+Statistical_line_breaks	main.c	/^  int Statistical_line_breaks;      \/\/ 统计换行$/;"	m	struct:lcd_add_interface_buf_data	file:
+Time	main.c	/^struct lcd_interface_refresh_time Time;$/;"	v	typeref:struct:lcd_interface_refresh_time
+UTF8_to_GB3212	utf_8_to_gb3212.c	22;"	d	file:
+UTF8_to_GB3212	utf_8_to_gb3212.h	10;"	d
+UTF_8	utf_8_to_gb3212.h	6;"	d
+UTP_socket_server	git_data.h	/^struct UTP_socket_server{$/;"	s
+_GIT_DATA_H_	git_data.h	2;"	d
+_UTF_8_TO_GB3212_	utf_8_to_gb3212.h	2;"	d
+__GB2312_	data.h	2;"	d
+add_interface_LCD_mode_table_Make_words	main.c	/^void add_interface_LCD_mode_table_Make_words(struct Interface_Pixel_overall *Interface, int Page, int position, int Sub_mode, int dp){$/;"	f
+add_lcd_add_interface_buf	main.c	/^void add_lcd_add_interface_buf(struct Interface_Pixel_overall *Interface, int Page, int position, int mode, uchar *dp, char k){$/;"	f
+add_lcd_add_interface_buf_copy	main.c	/^void add_lcd_add_interface_buf_copy(int addr_value){$/;"	f
+add_load_char	git_data.c	25;"	d	file:
+add_load_mode	git_data.c	24;"	d	file:
+add_load_x	git_data.c	22;"	d	file:
+add_load_y	git_data.c	23;"	d	file:
+ascii_table_5x8	data.c	/^uchar const ascii_table_5x8[95][5]={$/;"	v
+ascii_table_6x12	data.c	/^uchar const ascii_table_6x12[95][12] = {$/;"	v
+ascii_table_8x16	data.c	/^uchar const ascii_table_8x16[95][16]={$/;"	v
+buf	git_data.h	/^	char buf[1024];$/;"	m	struct:Instruction
+buf	main.c	/^  uchar buf[128];$/;"	m	struct:lcd_add_interface_buf_data	file:
+buf_length	utf_8_to_gb3212.h	5;"	d
+bufs	main.c	/^  uchar* bufs;$/;"	m	struct:lcd_add_interface_buf_data	file:
+clk	main.c	/^int clk = 11;$/;"	v
+code_convert_buf	main.c	/^  unsigned char code_convert_buf[1024];$/;"	m	struct:code_convert_data	file:
+code_convert_data	main.c	/^struct code_convert_data{$/;"	s	file:
+code_convert_process	utf_8_to_gb3212.c	/^int code_convert_process(char *from_charset,char *to_charset,char *inbuf,int inlen,char *outbuf,int outlen){$/;"	f
+coding_get_16_ASCII	main.c	62;"	d	file:
+coding_get_16_Chinese	main.c	63;"	d	file:
+coding_get_8_ASCII	main.c	61;"	d	file:
+coding_get_ratio_results	main.c	60;"	d	file:
+com_UTP_socket_server	git_data.c	/^void com_UTP_socket_server(struct UTP_socket_server *server) {$/;"	f
+com_code_convert_data	main.c	/^void com_code_convert_data(int code_convert_addr){$/;"	f
+count	main.c	/^  int count;$/;"	m	struct:code_convert_data	file:
+count	main.c	/^  unsigned int count;						\/\/ 编号数据(自然序列)$/;"	m	struct:Receive_data_buffer	file:
+cs	main.c	/^int cs = 8;$/;"	v
+git_GB3212_break_down_value	main.c	/^void git_GB3212_break_down_value(int code_convert_addr){$/;"	f
+git_Pixel_overall_data	main.c	/^uchar git_Pixel_overall_data(struct Interface_Pixel_overall *Interface, int Page, int position) {$/;"	f
+git_Pixel_overall_data_buf	main.c	/^uchar git_Pixel_overall_data_buf(struct Interface_Pixel_overall *Interface, int Page, int position) {$/;"	f
+head	main.c	/^struct Receive_data_buffer  *head = NULL;$/;"	v	typeref:struct:Receive_data_buffer
+init_interface	main.c	/^void init_interface(struct Interface_Pixel_overall *Interface) {$/;"	f
+init_lcd_add_interface_buf_data	main.c	/^void init_lcd_add_interface_buf_data(int addr_value,uchar *dp){$/;"	f
+initial_lcd	main.c	/^void initial_lcd() {$/;"	f
+interface_Pixel_unit	main.c	/^void interface_Pixel_unit(struct Interface_Pixel_overall *Interface, int status){$/;"	f
+interface_Pixel_unit_buf	main.c	/^void interface_Pixel_unit_buf(struct Interface_Pixel_overall *Interface, int status){$/;"	f
+lcd_add_interface	main.c	/^void lcd_add_interface(struct Interface_Pixel_overall *Interface, int Page, int position, int mode, uchar *dp) {$/;"	f
+lcd_add_interface_LCD_mode_AT	main.c	/^void lcd_add_interface_LCD_mode_AT(struct Interface_Pixel_overall *Interface, int Page, int position, int mode,uchar *dp){$/;"	f
+lcd_add_interface_LCD_mode_table_16x16	main.c	/^void lcd_add_interface_LCD_mode_table_16x16(struct Interface_Pixel_overall *Interface, int Page, int position, int mode, uchar *dp){$/;"	f
+lcd_add_interface_LCD_mode_table_5x8	main.c	/^void lcd_add_interface_LCD_mode_table_5x8(struct Interface_Pixel_overall *Interface, int Page, int position, int mode, uchar *dp){$/;"	f
+lcd_add_interface_LCD_mode_table_8x16	main.c	/^void lcd_add_interface_LCD_mode_table_8x16(struct Interface_Pixel_overall *Interface, int Page, int position, int mode, uchar *dp){$/;"	f
+lcd_add_interface_LCD_mode_table_Make_words	main.c	/^void lcd_add_interface_LCD_mode_table_Make_words(struct Interface_Pixel_overall *Interface, int Page, int position, uchar *dp){$/;"	f
+lcd_add_interface_buf_data	main.c	/^struct lcd_add_interface_buf_data{$/;"	s	file:
+lcd_add_interface_loading_16x16	main.c	/^int lcd_add_interface_loading_16x16(struct Interface_Pixel_overall *Interface, int Page, int position, char*dp){$/;"	f
+lcd_add_interface_loading_5x8	main.c	/^int lcd_add_interface_loading_5x8(struct Interface_Pixel_overall *Interface, int Page, int position, char*dp){$/;"	f
+lcd_add_interface_loading_8x16	main.c	/^int lcd_add_interface_loading_8x16(struct Interface_Pixel_overall *Interface, int Page, int position, char*dp){$/;"	f
+lcd_address	main.c	/^void lcd_address(uchar page,uchar column) $/;"	f
+lcd_interface_refresh	main.c	/^void lcd_interface_refresh(struct Interface_Pixel_overall *Interface) {$/;"	f
+lcd_interface_refresh_time	main.c	/^struct lcd_interface_refresh_time{$/;"	s	file:
+len	git_data.h	/^	socklen_t len;$/;"	m	struct:UTP_socket_server
+length	main.c	/^  unsigned int length;					\/\/ 数据长度$/;"	m	struct:Receive_data_buffer	file:
+mSysLog	main.c	/^void mSysLog(int log_level, char *format, ...) {$/;"	f
+main	main.c	/^int main(int argc, char* argv[]) {$/;"	f
+mode	git_data.h	/^	int mode;$/;"	m	struct:Instruction
+next	main.c	/^  struct Receive_data_buffer *next;		\/\/ 下一个$/;"	m	struct:Receive_data_buffer	typeref:struct:Receive_data_buffer::Receive_data_buffer	file:
+now_ASCII_data	main.c	55;"	d	file:
+now_Chinese_data	main.c	58;"	d	file:
+original_ASCII_data	main.c	54;"	d	file:
+original_Chinese_data	main.c	57;"	d	file:
+presaddr	git_data.h	/^	struct sockaddr_in presaddr;$/;"	m	struct:UTP_socket_server	typeref:struct:UTP_socket_server::sockaddr_in
+pri	git_data.c	/^void pri(int parsing_addr){$/;"	f
+pri_server_recvline_out	main.c	/^void pri_server_recvline_out(struct UTP_socket_server * server) {$/;"	f
+pri_terminal_Pixel_overall	main.c	/^void pri_terminal_Pixel_overall(int addr_value,int Interface_x,int Interface_y){$/;"	f
+printf_Row	main.c	49;"	d	file:
+recvline	git_data.h	/^	char recvline[1024];$/;"	m	struct:UTP_socket_server
+reset	main.c	/^int reset = 7;$/;"	v
+ret	git_data.h	/^	int ret;$/;"	m	struct:UTP_socket_server
+rs	main.c	/^int rs = 9;$/;"	v
+saddr	git_data.h	/^	struct sockaddr_in saddr;$/;"	m	struct:UTP_socket_server	typeref:struct:UTP_socket_server::sockaddr_in
+sda	main.c	/^int sda = 10;$/;"	v
+set_all_interface	main.c	/^void set_all_interface(struct Interface_Pixel_overall *Interface, int status) {$/;"	f
+set_interface_Line_drawing	main.c	/^void set_interface_Line_drawing(struct Interface_Pixel_overall *Interface, int Start_x, int Start_y, int End_x, int End_y, int status){$/;"	f
+set_interface_Pixel_uchar_8bit	main.c	/^void set_interface_Pixel_uchar_8bit(struct Interface_Pixel_overall *Interface, int Page, int position, uchar value){$/;"	f
+set_interface_Pixel_unit	main.c	/^void set_interface_Pixel_unit(struct Interface_Pixel_overall *Interface, int Pixel_x, int Pixel_y, int status) {$/;"	f
+set_interface_Pixel_unit_8bit_16x16	main.c	/^void set_interface_Pixel_unit_8bit_16x16(struct Interface_Pixel_overall *Interface, int Page, int position, unsigned int value){$/;"	f
+set_interface_Pixel_unit_8bit_5x8	main.c	/^void set_interface_Pixel_unit_8bit_5x8(struct Interface_Pixel_overall *Interface, int Page, int position, uchar value){$/;"	f
+set_interface_Pixel_unit_8bit_8x16	main.c	/^void set_interface_Pixel_unit_8bit_8x16(struct Interface_Pixel_overall *Interface, int Page, int position, uchar value){$/;"	f
+set_lcd_interface_refresh_time_Refresh_Sign	main.c	/^void set_lcd_interface_refresh_time_Refresh_Sign(void) {$/;"	f
+sockfd	git_data.h	/^	int sockfd;$/;"	m	struct:UTP_socket_server
+source	main.c	/^  struct timespec source;$/;"	m	struct:lcd_interface_refresh_time	typeref:struct:lcd_interface_refresh_time::timespec	file:
+source	main.c	/^  uchar* source;                    \/\/ dp 使用$/;"	m	struct:lcd_add_interface_buf_data	file:
+transfer_command	main.c	/^void transfer_command(int data1) $/;"	f
+transfer_data	main.c	/^void transfer_data(int data1) $/;"	f
+uchar	data.h	9;"	d
+uchar	main.c	20;"	d	file:
+uint	main.c	21;"	d	file:
+ulong	main.c	22;"	d	file:
+value	main.c	/^  int value;$/;"	m	struct:code_convert_data	file:
+x	git_data.h	/^	int x;$/;"	m	struct:Instruction
+y	git_data.h	/^	int y;$/;"	m	struct:Instruction

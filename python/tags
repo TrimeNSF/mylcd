@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFSIZE	client.py	/^BUFSIZE = 1024$/;"	v
+BUFSIZE	server.py	/^BUFSIZE = 1024$/;"	v
+Date	mylcd1.py	/^class Date:$/;"	c
+Interface	mylcd1.py	/^class Interface:$/;"	c
+KEY_CONFIG	mylcd1.py	/^KEY_CONFIG = 4$/;"	v
+KEY_DOWN	mylcd1.py	/^KEY_DOWN   = 5$/;"	v
+KEY_MENU	mylcd1.py	/^KEY_MENU   = 6$/;"	v
+KEY_UP	mylcd1.py	/^KEY_UP     = 13$/;"	v
+Language	mylcd1.py	/^class Language:$/;"	c
+Menu	mylcd1.py	/^class Menu:$/;"	c
+PlayMode	mylcd1.py	/^class PlayMode:$/;"	c
+__init__	mylcd1.py	/^    def __init__(self, name):$/;"	m	class:Language
+__init__	mylcd1.py	/^    def __init__(self, name):$/;"	m	class:PlayMode
+__init__	mylcd1.py	/^    def __init__(self, name, current_option=0):$/;"	m	class:Date
+__init__	mylcd1.py	/^    def __init__(self, name, options=[]):$/;"	m	class:Interface
+__init__	mylcd1.py	/^    def __init__(self, name, something=None, options=[], current_option=0):$/;"	m	class:Menu
+back_to_main	mylcd1.py	/^def back_to_main():$/;"	f
+c_h	mylcd1.py	/^c_h = logging.StreamHandler()$/;"	v
+change_date	mylcd1.py	/^def change_date(options, current_option):$/;"	f
+client	client.py	/^client = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)$/;"	v
+config_date_status	mylcd1.py	/^config_date_status = True$/;"	v
+config_status	mylcd1.py	/^config_status = False$/;"	v
+current_interface_option	mylcd1.py	/^current_interface_option = 0$/;"	v
+current_lang_option	mylcd1.py	/^current_lang_option = 1$/;"	v
+current_menu_option	mylcd1.py	/^current_menu_option = 0$/;"	v
+current_refresh_rate_option	mylcd1.py	/^current_refresh_rate_option = 0$/;"	v
+current_speed_option	mylcd1.py	/^current_speed_option = 0$/;"	v
+date_options	mylcd1.py	/^date_options = [$/;"	v
+dict_menu_options	mylcd1.py	/^dict_menu_options = collections.OrderedDict()$/;"	v
+do	mylcd1.py	/^    def do(self):$/;"	m	class:Menu
+exit_status	mylcd1.py	/^exit_status = False$/;"	v
+file_options	mylcd1.py	/^file_options = []$/;"	v
+formatter	mylcd1.py	/^formatter = logging.Formatter('L, [%(asctime)s] %(levelname)s -- : %(message)s ')$/;"	v
+get_current_months	mylcd1.py	/^def get_current_months():$/;"	f
+get_ip	mylcd1.py	/^def get_ip():$/;"	f
+get_option	mylcd1.py	/^    def get_option(self):$/;"	m	class:Date
+get_option	mylcd1.py	/^    def get_option(self):$/;"	m	class:Menu
+get_option_object	mylcd1.py	/^    def get_option_object(self):$/;"	m	class:Menu
+interface_options	mylcd1.py	/^interface_options = [$/;"	v
+ip_port	client.py	/^        ip_port = ('127.0.0.1', 58471)$/;"	v
+ip_port	server.py	/^ip_port = ('127.0.0.1', 9999)$/;"	v
+key_trigger_status	mylcd1.py	/^key_trigger_status = False$/;"	v
+lang	mylcd1.py	/^lang = {$/;"	v
+language_options	mylcd1.py	/^language_options = [$/;"	v
+load_info	mylcd1.py	/^def load_info():$/;"	f
+logger	mylcd1.py	/^logger = logging.getLogger()$/;"	v
+main	mylcd1.py	/^def main():$/;"	f
+menu_options	mylcd1.py	/^menu_options = list(dict_menu_options.values())$/;"	v
+playmode_options	mylcd1.py	/^playmode_options = [$/;"	v
+playspeed_options	mylcd1.py	/^playspeed_options = ("0.2", "0.4", "0.6", "0.8", "1.0", "1.5", "2.0", "3.0")$/;"	v
+refresh_rate_options	mylcd1.py	/^refresh_rate_options = ("60 Hz", "30 Hz", "20 Hz", "15 Hz", "12 Hz", "10 Hz")$/;"	v
+server	server.py	/^server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # udp协议$/;"	v
+set_option	mylcd1.py	/^    def set_option(self):$/;"	m	class:Date
+set_option	mylcd1.py	/^    def set_option(self):$/;"	m	class:Menu
+switch_brightness	mylcd1.py	/^def switch_brightness(options, current_option):$/;"	f
+switch_file	mylcd1.py	/^def switch_file(options, current_option):$/;"	f
+switch_language	mylcd1.py	/^def switch_language(options, current_option):$/;"	f
+switch_mode	mylcd1.py	/^def switch_mode(options, current_option):$/;"	f
+switch_refresh_rate	mylcd1.py	/^def switch_refresh_rate(options, current_option):$/;"	f
+switch_speed	mylcd1.py	/^def switch_speed(options, current_option):$/;"	f
